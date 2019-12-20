@@ -1,0 +1,57 @@
+{
+  "name": "liferay-demo-1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@clayui/button": "^3.0.3",
+    "@clayui/card": "^3.0.4",
+    "@clayui/loading-indicator": "^3.0.0",
+    "@clayui/panel": "^3.0.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "clay-css": "^2.19.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
+    "react-json-pretty": "^2.2.0",
+    "react-scripts": "3.3.0",
+    "react-slick": "^0.25.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:liferay": "lnbs-build",
+    "deploy:liferay": "yarn run build:liferay && lnbs-deploy"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "liferay-npm-build-support": "^2.16.1",
+    "liferay-npm-bundler": "^2.16.1",
+    "liferay-npm-bundler-preset-create-react-app": "^2.16.1",
+    "node-sass": "^4.13.0"
+  },
+  "portlet": {
+    "com.liferay.portlet.display-category": "React Widgets",
+    "javax.portlet.name": "liferaydemo1",
+    "javax.portlet.security-role-ref": "power-user,user",
+    "javax.portlet.resource-bundle": "content.Language",
+    "com.liferay.portlet.instanceable": true
+  }
+}

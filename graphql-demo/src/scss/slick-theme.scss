@@ -1,0 +1,45 @@
+.main-carousel {
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .slick-slide {
+        .slick-slide-container {
+            position: relative;
+
+            >div {
+                position: absolute;
+                top: auto;
+                left: 0;
+                width: 100%;
+                bottom: 0;
+
+                >* {
+                    text-shadow: 0 0 5px #000;
+                }
+            }
+
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .slick-arrow {
+
+        z-index: 999;
+
+        &:before {
+            color: #333;
+        }
+    }
+
+    .slick-prev {
+        left: 0 !important;
+    }
+
+    .slick-next {
+        right: 0 !important;
+    }
+
+}

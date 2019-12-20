@@ -1,1 +1,1 @@
-# liferay-dxp-72-headless-demos
+This repo contains some demos about the new headless apis in liferay dxp 7.2

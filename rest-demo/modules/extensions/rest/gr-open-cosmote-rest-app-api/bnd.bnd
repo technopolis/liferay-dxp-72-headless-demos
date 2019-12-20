@@ -1,0 +1,4 @@
+Bundle-Name: gr-open-cosmote-rest-app-api
+Bundle-SymbolicName: gr.open.cosmote.rest.app.api
+Bundle-Version: 1.0.0
+Export-Package: gr.open.cosmote.rest.app.dto.v1_0,gr.open.cosmote.rest.app.resource.v1_0

@@ -1,0 +1,9 @@
+apiDir: "../gr-open-cosmote-rest-app-api/src/main/java"
+apiPackagePath: "gr.open.cosmote.rest.app"
+application:
+  baseURI: "/cosmote-rest-app"
+  className: "CosmoteRestApp"
+  name: "Liferay.Cosmote.Rest"
+author: "Technopolis S.A."
+clientDir: "../gr-open-cosmote-rest-app-client/src/main/java"
+testDir: "../gr-open-cosmote-rest-app-test/src/testIntegration/java"
