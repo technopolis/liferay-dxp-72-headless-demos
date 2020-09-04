@@ -45,7 +45,7 @@
     "liferay-npm-build-support": "^2.16.1",
     "liferay-npm-bundler": "^2.16.1",
     "liferay-npm-bundler-preset-create-react-app": "^2.16.1",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   },
   "portlet": {
     "com.liferay.portlet.display-category": "React Widgets",
